@@ -1,4 +1,4 @@
-# Greetings Web Page
+# Greetings
 A simple web page that displays a greeting message and provides interactive buttons with modals.
 
 ## Features
@@ -13,7 +13,7 @@ A simple web page that displays a greeting message and provides interactive butt
 - JavaScript
 
 ## Live Site
-(Greetings)[!]
+[Greetings](https://ebenezerraph.github.io/greetings)
 
 ## Contributing
 If you find any issues or have suggestions, feel free to open an issue or submit a pull request.
