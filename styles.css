@@ -50,6 +50,7 @@ body {
     color: blue;
     box-shadow: 3px 3px aqua;
     translate: -6px -6px;
+    cursor: pointer;
   }
 
   .awesome_modal, .awful_modal {
@@ -83,7 +84,6 @@ body {
     animation: fade-in ease 0.7s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
-    cursor: pointer;
   }
   
   .awesome:hover, .awful:hover {
