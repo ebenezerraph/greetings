@@ -83,6 +83,7 @@ body {
     animation: fade-in ease 0.7s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
+    cursor: pointer;
   }
   
   .awesome:hover, .awful:hover {
