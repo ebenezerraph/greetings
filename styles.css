@@ -43,6 +43,14 @@ footer button:hover {
   translate: initial;
 }
 
+footer a:hover {
+  text-decoration: none;
+}
+
+footer a:visited {
+ color: inherit;
+}
+
 main {
   display: flex;
   flex-direction: column;
