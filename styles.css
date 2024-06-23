@@ -21,12 +21,8 @@ footer {
   box-sizing: border-box;
   color: aliceblue;
   background-color: blue;
-  padding: 5px;
+  padding: 5px 10px;
   align-items: center;
-}
-
-button a {
-  text-decoration: none;
 }
 
 footer button {
@@ -34,10 +30,9 @@ footer button {
   background-color: blue;
   color: aliceblue;
   border-radius: 5px;
-  box-sizing: border-box;
   padding: 8px;
   cursor: pointer;
-  width: 135px;
+  width: 130px;
 }
 
 footer button:hover {
