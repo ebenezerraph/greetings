@@ -12,7 +12,7 @@ You can access the live version of the Greetings application [here](https://eben
 - Modals can be closed by clicking the close button, outside the modal, or pressing Esc
 - Clean, centered layout with Courier New font
 
-## Technologies
+## Technologies Used
 - HTML
 - CSS
 - JavaScript
