@@ -1,3 +1,12 @@
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 body {
   font-family: 'Courier New', Courier, monospace;
   background-color: aqua;
@@ -8,47 +17,6 @@ body {
   align-items: center;
   height: 100vh;
   margin: 0;
-}
-
-footer {
-  width: 100%;
-  height: 50px;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  display: flex;
-  justify-content: space-between;
-  box-sizing: border-box;
-  color: aliceblue;
-  background-color: blue;
-  padding: 5px 10px;
-  align-items: center;
-}
-
-footer button {
-  border: 1px solid aliceblue;
-  background-color: blue;
-  color: aliceblue;
-  border-radius: 5px;
-  padding: 8px;
-  cursor: pointer;
-  width: 130px;
-}
-
-footer button:hover {
-  background-color: aliceblue;
-  color: blue;
-  transition: all ease 0.3s;
-  box-shadow: initial;
-  translate: initial;
-}
-
-footer a:hover {
-  text-decoration: none;
-}
-
-footer a:visited {
- color: inherit;
 }
 
 main {
@@ -132,15 +100,6 @@ button:hover {
   translate: -10px -10px;
 }
 
-@keyframes fade-in {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
 .close_awesome, .close_awful {
   color: blue;
   position: absolute;
@@ -155,4 +114,45 @@ button:hover {
   color: aliceblue;
   text-decoration: none;
   cursor: pointer;
+}
+
+footer {
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  color: aliceblue;
+  background-color: blue;
+  padding: 5px 10px;
+  align-items: center;
+}
+
+footer button {
+  border: 1px solid aliceblue;
+  background-color: blue;
+  color: aliceblue;
+  border-radius: 5px;
+  padding: 8px;
+  cursor: pointer;
+  width: 130px;
+}
+
+footer button:hover {
+  background-color: aliceblue;
+  color: blue;
+  transition: all ease 0.3s;
+  box-shadow: initial;
+  translate: initial;
+}
+
+footer a:hover {
+  text-decoration: none;
+}
+
+footer a:visited {
+ color: inherit;
 }
