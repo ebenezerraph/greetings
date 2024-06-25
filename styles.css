@@ -139,7 +139,8 @@ footer button {
   box-sizing: border-box;
   padding: 8px;
   cursor: pointer;
-  max-width: 130px;
+  min-width: 130px;
+  max-height: 30px;
   margin: 0;
 }
 
