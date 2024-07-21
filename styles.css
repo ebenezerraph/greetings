@@ -2,6 +2,7 @@
   0% {
     opacity: 0;
   }
+
   100% {
     opacity: 1;
   }
@@ -62,7 +63,8 @@ button:hover {
   cursor: pointer;
 }
 
-.awesome_modal, .awful_modal {
+.awesome_modal,
+.awful_modal {
   display: none;
   justify-content: center;
   align-items: center;
@@ -76,7 +78,8 @@ button:hover {
   background-color: rgba(0, 0, 0, 0.4);
 }
 
-.awesome, .awful {
+.awesome,
+.awful {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -95,12 +98,14 @@ button:hover {
   animation-fill-mode: forwards;
 }
 
-.awesome:hover, .awful:hover {
+.awesome:hover,
+.awful:hover {
   box-shadow: 5px 5px aliceblue;
   translate: -10px -10px;
 }
 
-.close_awesome, .close_awful {
+.close_awesome,
+.close_awful {
   color: blue;
   position: absolute;
   top: 10px;
@@ -110,7 +115,10 @@ button:hover {
   transition: all 0.3s ease;
 }
 
-.close_awesome:hover, .close_awful:hover, .close_awesome:focus, .close_awful:focus {
+.close_awesome:hover,
+.close_awful:hover,
+.close_awesome:focus,
+.close_awful:focus {
   color: aliceblue;
   text-decoration: none;
   cursor: pointer;
@@ -156,5 +164,5 @@ footer a:hover {
 }
 
 footer a:visited {
- color: aliceblue;
+  color: aliceblue;
 }
