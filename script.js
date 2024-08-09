@@ -1,4 +1,6 @@
-// Greeting function
+// WARNING!
+// This code was written with the help of and refactored by Claude!
+
 function getGreeting() {
   const currentHour = new Date().getHours();
   if (currentHour >= 18) {
@@ -12,7 +14,6 @@ function getGreeting() {
   }
 }
 
-// Display greeting
 function displayGreeting() {
   const { greeting, message } = getGreeting();
   document.getElementById('greeting').textContent = greeting;
@@ -49,6 +50,5 @@ function handleDayButtons() {
   document.addEventListener('keydown', escape);
 }
 
-// Initialize
 displayGreeting();
 handleDayButtons();
