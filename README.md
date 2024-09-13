@@ -10,12 +10,9 @@ You can access the live version of the application [here](https://ebenezerraph.g
 - Greets the user based on the time of day
 - "Awesome" and "Awful" buttons open corresponding modals
 - Modals can be closed by clicking the close button, outside the modal, or pressing Esc
-- Clean, centered layout
+- Clean, centred layout
 
 ## Technologies
 - HTML
 - CSS
 - JavaScript
-
-## Contributing
-If you find any issues or have suggestions, feel free to open an issue or submit a pull request.
