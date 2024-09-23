@@ -1,6 +1,4 @@
 # Greetings
-
-## Description
 This is a simple web page that displays a greeting message and provides interactive buttons with modals.
 
 ## Features
