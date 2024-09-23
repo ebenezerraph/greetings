@@ -3,9 +3,6 @@
 ## Description
 This is a simple web page that displays a greeting message and provides interactive buttons with modals.
 
-## Live Site
-You can access the live version of the application [here](https://ebenezerraph.github.io/greetings)
-
 ## Features
 - Greets the user based on the time of day
 - "Awesome" and "Awful" buttons open corresponding modals
