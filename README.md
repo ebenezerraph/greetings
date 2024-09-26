@@ -1,5 +1,5 @@
 # Greetings
-This is a simple web project that displays a greeting and provides interactive buttons and modals.
+This is a simple web project that displays a greeting and includes interactive buttons and modals.
 
 ## Features
 - It greets the visitor according to the time of day.  
